@@ -1,0 +1,190 @@
+body {
+    width:889px;
+    margin: 0;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0;
+    font-size: .8em;
+    line-height: 1.3em;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+}
+.header img {
+    padding: 0em 2em .5em 0em;
+}
+.header {
+    clear:both;
+}
+a:link {
+    color: #0066CC;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #787878;
+    text-decoration:none;
+}
+a:link:hover, a:visited:hover {
+    text-decoration:underline;
+}
+img {
+    border:none;
+}
+
+.figure-contents img {
+    padding:2px;
+    background:#cccccc;
+    border:1px gray solid;
+}
+
+pre {
+    padding: 1em;
+    background: #eee;
+    border:1px solid #cccccc;
+    margin-left:10px;
+}
+.table table {
+    border:1px solid #cccccc;
+}
+.table td, .table th {
+    border:1px solid #cccccc;
+    padding:5px;
+}
+.code, .filename {
+    color:#1D5A61;
+}
+.guibutton {
+    text-decoration:underline;
+    color:#375;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+h1 {
+    font-size:24px;
+    padding:5px;
+    border-bottom:1px solid gray;
+}
+h2 {
+    font-size: 150%;
+    margin: 20px 0 0;
+    padding:4px;
+    color:white;
+    background-color:#0066CC;
+}
+h3 {
+    font-size: 130%;
+    padding:4px;
+    color:#0066CC;
+}
+
+h4 {
+    font-size:120%;
+    color:#0066CC;
+}
+h5 {
+    font-size:110%;
+    padding:5px;
+    color:#0066CC;
+    font-style:italic;
+}
+#download
+{
+  display: block;
+  width: 100px;
+  height: 75px;
+  background: url("http://pkp.sfu.ca/sites/default/themes/barron/images/round_download_100_combined.gif") no-repeat 0 0;
+
+}
+
+#download:hover
+{ 
+  background-position: 0 -75px;
+}
+
+#download span
+{
+  display: none;
+}
+
+#help
+{
+  display: block;
+  width: 100px;
+  height: 75px;
+  background: url("http://pkp.sfu.ca/sites/default/themes/barron/images/round_help_100_combined.gif") no-repeat 0 0;
+
+}
+
+#help:hover
+{ 
+  background-position: 0 -75px;
+}
+
+#help span
+{
+  display: none;
+}
+
+#informed
+{
+  display: block;
+  width: 100px;
+  height: 75px;
+  background: url("http://pkp.sfu.ca/sites/default/themes/barron/images/round_informed_100_combined.gif") no-repeat 0 0;
+
+}
+
+#informed:hover
+{ 
+  background-position: 0 -75px;
+}
+
+#informed span
+{
+  display: none;
+}
+
+#involved
+{
+  display: block;
+  width: 100px;
+  height: 75px;
+  background: url("http://pkp.sfu.ca/sites/default/themes/barron/images/round_involved_100_combined.gif") no-repeat 0 0;
+
+}
+
+#involved:hover
+{ 
+  background-position: 0 -75px;
+}
+
+#involved span
+{
+  display: none;
+}
+
+#donate
+{
+  display: block;
+  width: 100px;
+  height: 75px;
+  background: url("http://pkp.sfu.ca/sites/default/themes/barron/images/round_donate_100_combined.gif") no-repeat 0 0;
+
+}
+
+#donate:hover
+{ 
+  background-position: 0 -75px;
+}
+
+#donate span
+{
+  display: none;
+}
+tbody {
+  border-top: 0px solid #fff;
+}
+
+.note
+    {
+        border-left:5px solid #ccf;
+        padding-left: 10px;
+    }
